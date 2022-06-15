@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+Blueprint Interactive Web Developer Skills Test: Exercise One
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Randomize the order of the following number set: "44, 154, 32, 41, 7, 22, 17, 21, 9, 20"
 
-## Available Scripts
+2. Find the mean of the following number set: "22, 14, 3, 5, 667, 19, 2, 41, 9, 70"
 
-In the project directory, you can run:
+3. Fetch and parse the json data at https://blueprintinteractive.com/test.json to produce the following table:
 
-### `npm start`
+First Name Last Name Email Gender
+John Doe j@example.com male
+Sean Parker sean@example.com male
+Tony Stark tony@example.com male
+Sarah Smith sarah@example.com female
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Bonus
+Use the shortest possible regular expression or replacement method using php, ruby or javascript to put a smiley face after every word that ends in a vowel in this sentence.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Problems:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[] - I had several issues with the 3rd question. I spent a lot of time troubleshooting the cors error when fetching the data. Generally cors issues are resolved on the server side. In this case, Blueprint Interactive's server did not allow me to access the data. Once I reached out to Nick, they were able to get the cors error fixed on their end. However, I was unable to parse the data into json. I could only convert the response to a text. Due to the time constraint, I opted to copy and paste the data into my own object. Then, I created the table with my own obj.
